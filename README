@@ -1,0 +1,20 @@
+
+Pour installer node-red - InfluxDB - Grafana :
+----------------------------------------------
+1. cd ~/lorawan/application/iot-app/
+2. bash install-iot-app.sh
+
+
+Pour installer ChirpStack :
+---------------------------
+1. cd ~/lorawan/network-server/chirpstack-docker/
+2. sudo docker compose down
+
+
+Pour installer TTS :
+--------------------
+1. cd ~/lorawan/network-server/the-things-stack-docker/
+2. Modifier la ligne "TTS_DOMAIN lns.example.com" dans le fichier docker-compose.yml et remplacer lns.example.com par votre adresse IP.
+3. sudo docker compose up -d
+
+
